@@ -8,7 +8,6 @@ const StorageCtrl = (function () {
       let items;
 
       //check if there is something in LS
-
       if (localStorage.getItem('items') === null) {
         items = [];
         items.push(item)
